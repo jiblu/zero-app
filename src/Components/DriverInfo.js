@@ -1,5 +1,15 @@
 import React, { PureComponent } from 'react'
 import Info from './Info'
+import styled from 'styled-components'
+import * as Themes from '../Themes/index'
+
+const { large } = Themes.Metrics.fontSize
+
+const DriverStyle = styled.div`
+  font-size: ${large};
+  padding-bottom: 10px;
+  color: ${Themes.Colors.accent}
+`
 
 export default class DriverInfo extends PureComponent {
   render () {
@@ -8,9 +18,9 @@ export default class DriverInfo extends PureComponent {
 
     return (
       <div>
-        <div>
+        <DriverStyle>
           {displayName}
-        </div>
+        </DriverStyle>
         {Object.keys(info.status).map((item, i) => {
           return (
             <div key={i}>

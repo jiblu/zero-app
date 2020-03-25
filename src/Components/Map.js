@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import ReactMapGL, {Popup, NavigationControl, FullscreenControl, ScaleControl} from 'react-map-gl'
 
 import Pins from './Pins'
-import DriverInfo from './driver-info'
+import DriverInfo from './DriverInfo'
 
 import DRIVERS from '../Data/drivers.json'
 
