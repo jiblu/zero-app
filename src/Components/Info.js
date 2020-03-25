@@ -7,16 +7,21 @@ const {
   darkGray
 } = Themes.Colors
 
+const {
+  smaller,
+  small
+} = Themes.Metrics.fontSize
+
 const InfoStyle = styled.div`
   padding: 1px
 `
 const LabelStyle = styled.div`
   color: ${lightGray};
-  font-size: 10px
+  font-size: ${smaller}
 `
 const TextStyle = styled.div`
   color: ${darkGray};
-  font-size: 12px
+  font-size: ${small}
 `
 const Info = props => {
   return (

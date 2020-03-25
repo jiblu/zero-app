@@ -1,7 +1,7 @@
 import Colors from './Colors'
-// import Metrics from './Metrics'
+import Metrics from './Metrics'
 
 export {
   Colors,
-  // Metrics
+  Metrics
 }
