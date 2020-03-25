@@ -13,7 +13,9 @@ const HeaderStyle = styled.div`
 const Header = props => {
   return (
     <HeaderStyle>
-      Imported Header Here
+      <a href='/'>
+        <img src='https://storage.googleapis.com/zeroshop-cdn/site/img/logo3.png' />
+      </a>
     </HeaderStyle>
   )
 }
