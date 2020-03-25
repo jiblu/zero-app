@@ -38,7 +38,7 @@ class Map extends Component {
         longitude: -122.4376,
         width: '100vw',
         height: '100vh',
-        zoom: 6,
+        zoom: 11,
       },
       popupInfo: null
     }
