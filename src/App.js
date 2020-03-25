@@ -2,14 +2,12 @@ import React from 'react'
 import './App.css'
 import Header from './Header'
 import Map from './Map'
-import Footer from './Footer'
 
 function App () {
   return (
-    <div>
+    <div class='App-container'>
       <Header />
       <Map />
-      <Footer />
     </div>
   )
 }
