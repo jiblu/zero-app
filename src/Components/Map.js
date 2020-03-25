@@ -62,7 +62,7 @@ class Map extends Component {
           anchor="top"
           longitude={popupInfo.longitude}
           latitude={popupInfo.latitude}
-          closeOnClick={false}
+          closeOnClick={true}
           onClose={() => this.setState({popupInfo: null})}
         >
           <DriverInfo info={popupInfo} />
