@@ -4,7 +4,7 @@ import ReactMapGL, {Popup, NavigationControl, FullscreenControl, ScaleControl} f
 import Pins from './Pins'
 import DriverInfo from './driver-info'
 
-import DRIVERS from './drivers.json'
+import DRIVERS from '../Data/drivers.json'
 
 const MAPBOX_TOKEN = process.env.REACT_APP_MAP_GL_TOKEN
 

@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react'
-import Info from './Components/Info'
+import Info from './Info'
 
 export default class DriverInfo extends PureComponent {
   render () {

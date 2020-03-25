@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
-import Header from './Header'
-import Map from './Map'
+import Header from './Components/Header'
+import Map from './Components/Map'
 
 function App () {
   return (
