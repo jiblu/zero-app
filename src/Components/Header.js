@@ -14,7 +14,7 @@ const Header = props => {
   return (
     <HeaderStyle>
       <a href='/'>
-        <img src='https://storage.googleapis.com/zeroshop-cdn/site/img/logo3.png' />
+        <img alt='logo' src='https://storage.googleapis.com/zeroshop-cdn/site/img/logo3.png' />
       </a>
     </HeaderStyle>
   )
