@@ -9,12 +9,6 @@ export default class DriverInfo extends PureComponent {
       <div>
         <div>
           {displayName} |{' '}
-          <a
-            target='_new'
-            href={`http://en.wikipedia.org/w/index.php?title=Special:Search&search=${displayName}`}
-          >
-            Wikipedia
-          </a>
         </div>
         <img width={240} src={info.image} />
       </div>

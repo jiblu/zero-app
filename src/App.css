@@ -1,10 +1,6 @@
 .App {
   text-align: center;
-}
-
-.App-container {
-  height: 100vh;
-  margin: auto;
+  height: 100vmax;
 }
 
 .App-logo {

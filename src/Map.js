@@ -48,8 +48,8 @@ class Map extends Component {
     this.setState({viewport})
   }
 
-  _onClickMarker = city => {
-    this.setState({popupInfo: city})
+  _onClickMarker = driver => {
+    this.setState({popupInfo: driver})
   }
 
   _renderPopup() {
@@ -97,21 +97,8 @@ class Map extends Component {
         </div>
 
       </ReactMapGL>
-    );
+    )
   }
-  /*
-  render() {
-    return (
-      <ReactMapGL
-      {...this.state.viewport}
-      onViewportChange={(viewport) => this.setState({viewport})}
-      mapboxApiAccessToken={MAPBOX_TOKEN}
-      >
-      <Pins data={DRIVERS} />
-      </ReactMapGL>
-      )
-    }
- */
 }
 
 export default Map

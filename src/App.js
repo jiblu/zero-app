@@ -5,7 +5,7 @@ import Map from './Map'
 
 function App () {
   return (
-    <div class='App-container'>
+    <div class='App'>
       <Header />
       <Map />
     </div>
