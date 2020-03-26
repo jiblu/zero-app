@@ -17,7 +17,7 @@ export default class DriverInfo extends PureComponent {
     const displayName = `${info.driver}`
 
     return (
-      <div>
+      <div style={{ cursor: 'pointer' }}>
         <DriverStyle>
           {displayName}
         </DriverStyle>
